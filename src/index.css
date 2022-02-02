@@ -1,0 +1,179 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.qty{
+  width:40px;
+  height:25px;
+  text-align: center;
+}
+input.qtyplus{
+  width: 25px;
+  height: 25px;
+  padding:5px;
+  border :2px solid grey;
+  margin:2%;
+}
+input.qtyminus{
+  width: 25px;
+  height: 25px;
+  padding:5px;
+  border :2px solid grey;
+  margin:2%;
+}
+.navbar-nav li a{
+  font-size:17px;
+ }
+ .navbar-brand img{
+   margin-right:500px;
+   
+ }
+
+.divider:after,
+
+.divider:before {
+
+  content: "";
+
+  flex: 1;
+
+  height: 1px;
+
+  background: #eee;
+
+}
+
+.h-custom {
+
+  height: calc(100% - 73px);
+
+}
+
+@media (max-width: 450px) {
+
+  .h-custom {
+
+    height: 100%;
+
+  }
+}
+.vh-100{
+ color:white;
+}
+.log{
+  background-image: url("https://images.unsplash.com/photo-1502481851512-e9e2529bfbf9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80");
+}
+
+
+.container1 h1{
+  font-size: 50px;
+  text-align: center;
+  color:darkslategray;
+  margin-left: 340px;
+
+}
+.App1{
+  margin:500px
+}
+.card{
+  transition: all 0.5s ease;
+}
+.card:hover{
+  transform:scale(1.1);
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+/* productlist */
+.container1{
+  background-image: url("https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/image/rDtN98Qoishumwih/summer-background-abstract-background-wallpaper-use-for-presentation_HDDYoJOhMg_thumb.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+/* home */
+#carouselExampleIndicators{
+ padding-bottom: 10px;
+ size: 500px;
+ padding-top:10px;
+ 
+}
+/* support */
+.contact-form  h2{
+  color:crimson;
+  font-size: 55px;
+  display: inline;
+ 
+}
+.contact-form label{
+  color:black;
+  font-size: 25px;
+}
+.contact-form p{
+  font-size: 20px;
+}
+.img{
+  display:inline
+}
+.embed-responsive{
+  
+ background-size: cover;
+}
+
+/* profile */
+.profilepage{
+  margin: 100px;
+  padding: 100px;
+ 
+}
+.profilec{
+   height: 300px;
+   width: 450px;
+}
+
+/* aboutus */
+.aboutus h1{
+  color: blanchedalmond;
+  margin-left: 130px;
+  text-align: center;
+
+}
+.aboutus p{
+  color: blanchedalmond;
+  margin-left:30px;
+ text-align:left;
+}
+
+
+/* admin */
+.read {
+  padding: 10px;
+}
+.read label{
+  color: maroon;
+  font-size: 20px;
+  
+}
+.read input{
+  margin-left: 50px;
+  font-size: 30px;
+}
+.create{
+  margin:100px;
+  background-image: url("https://savannahoaksrvresort.com/images/team/02.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+.update{
+  margin: 100px;
+  background-image: url("https://thumbs.dreamstime.com/b/transparent-background-light-turqouise-yellow-colors-45303781.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  
+}
